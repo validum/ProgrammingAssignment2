@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix())
     {
         #caches new matrix and sets inverse back to null
         matrix_cache <<- y
-        inv_cahe <<- NULL
+        inv_cache <<- NULL
     }
     get_matrix <- function() matrix_cache #returns cached matrix
     get_inverse <- function() inv_cache #returns cached inverse
